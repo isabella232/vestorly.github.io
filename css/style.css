@@ -98,8 +98,8 @@ strong { font-family: 'Freight Sans Pro Medium'; font-weight: normal; }
 /* ================================================================================
 	#Intro
 ================================================================================ */
-.intro { position: relative; height: 551px; padding-top: 140px; }
-.intro-high { height: 550px; padding-top: 170px; }
+.intro { position: relative; padding-top: 140px; }
+.intro-high { min-height: 500px; max-height: 600px; padding-top: 170px; }
 
 .intro-entry .logo-torii { position: relative; z-index: 7; overflow: hidden; display: inline-block; width: 218px; height: 90px; margin-bottom: 20px; background: url(images/sprite.png) 0 -82px no-repeat; text-indent: 100%; white-space: nowrap; }
 .intro-entry { position: relative; z-index: 7; width: 840px; margin: 0 auto; font-size: 25px; color: #d0d6e2; text-align: center; letter-spacing: 1px; }
