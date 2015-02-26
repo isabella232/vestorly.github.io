@@ -49,7 +49,7 @@ strong { font-family: 'Freight Sans Pro Medium'; font-weight: normal; }
 .btn { display: inline-block; border: 0; border-radius: 2px; font-family: 'Freight Sans Pro Semibold'; font-size: 19px; color: #fff; text-align: center; text-transform: uppercase; vertical-align: middle; cursor: pointer; -webkit-appearance: none; font-weight: normal; }
 .btn:hover { text-decoration: none; color: #fff; }
 
-.btn-bordered { padding: 0 20px; border: 2px solid #ae908e; border-radius: 3px; height: 38px; font-size: 14px; line-height: 34px; letter-spacing: 1px; }
+.btn-bordered { padding: 0 20px; margin: 10px 10px 10px 10px; border: 2px solid #ae908e; border-radius: 3px; height: 38px; font-size: 14px; line-height: 34px; letter-spacing: 1px; }
 .btn-bordered:hover { border-color: #fff; }
 
 .btn-light,
@@ -68,7 +68,7 @@ strong { font-family: 'Freight Sans Pro Medium'; font-weight: normal; }
 	-webkit-transition: border .3s, background .3s;
 	   -moz-transition: border .3s, background .3s;
 	     -o-transition: border .3s, background .3s;
-	        transition: border .3s, background .3s; 
+	        transition: border .3s, background .3s;
 }
 
 /* ================================================================================
@@ -99,7 +99,7 @@ strong { font-family: 'Freight Sans Pro Medium'; font-weight: normal; }
 	#Intro
 ================================================================================ */
 .intro { position: relative; height: 551px; padding-top: 140px; }
-.intro-high { height: 500px; padding-top: 170px; }
+.intro-high { height: 550px; padding-top: 170px; }
 
 .intro-entry .logo-torii { position: relative; z-index: 7; overflow: hidden; display: inline-block; width: 218px; height: 90px; margin-bottom: 20px; background: url(images/sprite.png) 0 -82px no-repeat; text-indent: 100%; white-space: nowrap; }
 .intro-entry { position: relative; z-index: 7; width: 840px; margin: 0 auto; font-size: 25px; color: #d0d6e2; text-align: center; letter-spacing: 1px; }
@@ -169,7 +169,7 @@ strong { font-family: 'Freight Sans Pro Medium'; font-weight: normal; }
 	-webkit-transition: margin .3s;
 	   -moz-transition: margin .3s;
 	     -o-transition: margin .3s;
-	        transition: margin .3s; 
+	        transition: margin .3s;
 }
 
 /* ================================================================================
@@ -202,16 +202,16 @@ strong { font-family: 'Freight Sans Pro Medium'; font-weight: normal; }
 	.intro { padding-top: 170px; }
 	.intro-entry { width: auto; font-size: 15px; }
 	.intro-entry h1 { font-size: 27px; }
-	
+
 	.callout { padding: 35px 0 10px; }
 	.callout .actions { padding-bottom: 10px; }
-	.btn-light, 
+	.btn-light,
 	.btn-dark { width: 215px; }
 
 	.section { padding: 20px 0 10px; }
 	.code { width: auto; }
 	.code pre { font-size: 12px; }
-	
+
 	.main-intro { padding-bottom: 0; }
 	.footer-simple p { margin-bottom: 30px; }
 
@@ -227,12 +227,12 @@ strong { font-family: 'Freight Sans Pro Medium'; font-weight: normal; }
 @media only screen and (max-width: 479px) {
 	.header .actions,
 	.logo { float: none; text-align: center; margin: 10px auto; }
-	.btn-light, 
+	.btn-light,
 	.btn-dark { width: 293px; }
 	.callout .btn ~ .btn { margin: 12px 0 0 0; }
 
 	.section-grey .actions { text-align: center; }
-	
+
 	.footer-right { width: auto; text-align: center; }
 	.socials,
 	.footer-nav { float: none; }
